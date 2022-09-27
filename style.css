@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+    font-family: sans-serif;
+    margin-top: 40px;
+    background-image: url(/5FHWJT.jpg);
+}
+.register{
+    background-color:rgba(0,0,0,0.6);
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+}
+.content{
+    width: 800px;
+    background-color: rgba(0,0,0,0.4);
+    margin: auto;
+}
+form{
+    padding: 15px;
+}
+#name{
+    width: 100%;
+}
+.name{
+    margin: 30px 0 0 25px;
+    width: 125px;
+    font-weight: 700px;
+    font-size: 18px;
+    color:#fff;
+}
+.first{
+    position: relative;
+    top: -37px;
+    left: 180px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+.last{
+    position: relative;
+    top: -76px;
+    left: 417px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+.firstname{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    left: 180px;
+    top: -43px;
+    font-size: 14px;
+
+}
+.lastName{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    left: 175px;
+    top: -43px;
+    font-size: 14px;
+}
+.company{
+    position: relative;
+    line-height: 40px;
+    border-radius: 5px;
+    width: 550px;
+    top: -37px;
+    left: 180px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+.email{
+    position: relative;
+    line-height: 40px;
+    border-radius: 5px;
+    width: 550px;
+    top: -37px;
+    left: 180px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+.area_code{
+    position: relative;
+    line-height: 40px;
+    border-radius: 5px;
+    width: 90px;
+    top: -37px;
+    left: 180px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+.phone{
+    position: relative;
+    line-height: 40px;
+    border-radius: 5px;
+    width: 375px;
+    top: -37px;
+    left: 180px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+.areacode{
+    position: relative;
+    text-transform: capitalize;
+    left: 86px;
+    top: -5px;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+.phone_number{
+    position: relative;
+    text-transform: capitalize;
+    right: 200px;
+    top: -5px;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+.option{
+    position: relative;
+    height: 40px;
+    border-radius: 5px;
+    width: 550px;
+    top: -35px;
+    left: 180px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+option{
+    font-size:20px;
+}
+#beginner{
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+.radio{
+    color: white;
+    outline: none;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+button{
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #366473;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 20px;
+
+}
